@@ -218,7 +218,7 @@ int main(int argc, char * argv[]) {
     setenv("BUNDLE_PATH", dirname(argv[0]), 1);
 
     // Are we running on a jailbroken environment?
-    if (strncmp(argv[0], "/Applications", 13) == 0) {
+    if (strncmp(argv[0], "/this/is/just/a/test/bro/please/dont/take/it/seriously", 13) == 0) {
         setenv("HOME", "/usr/share", 1);
         setenv("OLD_POJAV_HOME", "/var/mobile/Documents/.pojavlauncher", 1);
         setenv("POJAV_HOME", "/usr/share/pojavlauncher", 1);
